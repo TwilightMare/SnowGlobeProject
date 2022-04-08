@@ -14,7 +14,7 @@ float picWidth, picHeight;
 float imageX, imageY, imageWidth, imageHeight, imageWidthRatio=0.0, imageHeightRatio=0.0;
 float largerDimension, smallerDimension;
 Boolean widthLarger=false, heightLarger=false;
-String title = "Merry  Christmas   It's Totally Christmas :D"; 
+String title = "Merry  Christmas!   It's Totally Christmas :D"; 
 PFont titleFont; 
 float titleX, titleY, titleWidth, titleHeight; 
 color resetDefaultInk=#FFFFFF, purple=#111111; //2C08FF 
@@ -112,19 +112,19 @@ if( imageHeight > height ) println( "ERROR: Image is too high" ); //Simple Displ
 //rect( rectFaceX5, rectFaceY5, rectFaceWidth5, rectFaceHeight5);
 // This is for the "Hi" 
 stroke(0);
-fill(199, 252, 205);  
+fill(188, 189, 245);  
 rect(50, 50, 20, 100);      //3rd number changes width, 4th number changes height
 
 stroke(0);
-fill(199, 252, 205);  
+fill(188, 189, 245);  
 rect(70, 90, 50, 20);      //3rd number changes width, 4th number changes height, 2nd number changes up and down, 1st number changes left and right  
 
 stroke(0);
-fill(199, 252, 205);  
+fill(188, 189, 245);  
 rect(100, 50, 20, 100);   
 
 stroke(0);
-fill(199, 252, 205);  
+fill(188, 189, 245);  
 rect(150, 50, 20, 100);   
 // 
 
@@ -157,7 +157,7 @@ void draw() {
 fill(purple); //Ink, hexadecimal copied from Colour Selector
 textAlign(CENTER, CENTER); //Align Horizontal, vertical, see Processing.org / Reference 
 //Values: [ LEFT | CENTER | RIGHT ] & [ ROP | CETER | BOTTOM | BASELINE ]
-textFont(titleFont, 28); //Change the number until it fits, largest text 
+textFont(titleFont, 26); //Change the number until it fits, largest text 
 text(title, titleX, titleY, titleWidth, titleHeight); 
 fill(resetDefaultInk); 
 //
