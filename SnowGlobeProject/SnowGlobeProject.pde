@@ -24,6 +24,7 @@ color resetDefaultInk=#FFFFFF, purple=#111111; //2C08FF
 void setup() {
 //Variable Population 
 //
+background(#7b889e); 
 fullScreen(); 
 int appWidth = width, appHeight = height; 
 // 
